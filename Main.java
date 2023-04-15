@@ -24,6 +24,7 @@ public class Main {
             System.out.println("Do you want to continue?(y/n)");
             ch = sc.nextLine().charAt(0);
         }
+        System.out.println("Details:");
         System.out.format("%-20s%-20s%-20s\n","Name", "Deposit", "CostPerDay");
         for(ItemType it : list){
             System.out.println(it.toString());
