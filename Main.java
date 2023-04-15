@@ -25,6 +25,7 @@ public class Main {
             ch = sc.nextLine().charAt(0);
         }
         System.out.println("Details:");
+        System.out.println("Multiply");
         System.out.format("%-20s%-20s%-20s\n","Name", "Deposit", "CostPerDay");
         for(ItemType it : list){
             System.out.println(it.toString());
